@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Zener C(5)ards</title>
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.min.css">     -->
+  <link type="text/css" rel="stylesheet" href="css/application.css">    
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+</head>
+
+<body>
+
+  <div class="container span5">
+
+    <div id="howto" class="row">
+      <div class="span5">
+        <div class="title rounded-corners">
+          C5 Zener Cards
+          <div class="glyphs">
+            <span data-icon="0"></span>
+            <span data-icon="1"></span>
+            <span data-icon="2"></span>
+            <span data-icon="3"></span>
+            <span data-icon="4"></span>
+            <span data-icon="5"></span>
+          </div>
+        </div>
+        <div class="alert alert-info fade in">
+          <p>TEST A FRIEND'S ESP</p>
+          <p>1. Grab the person next to you.</p>
+          <p>2. Start the game.</p>
+          <p>3. Have them guess the image on the card.</p>
+          <p>4. Record if their guess is correct.</p>
+        </div>
+        <button type="button" name="start" class="btn btn-block">Start</button>
+      </div>
+    </div>
+
+    <div id="game" class="row">
+      <div class="span5">
+        <div id="info" class="alert alert-info fade in">
+          Guess <span id="guesses">0</span> of <span id="guess_limit"></span>
+        </div>
+
+        <p class="glyph rounded-corners" data-icon="0"></p>
+        <p class="glyph rounded-corners" data-icon="1"></p>
+        <p class="glyph rounded-corners" data-icon="2"></p>
+        <p class="glyph rounded-corners" data-icon="3"></p>
+        <p class="glyph rounded-corners" data-icon="4"></p>
+        <p class="glyph rounded-corners" data-icon="5"></p>
+
+        <p id="score">Your critical ratio is <span></span></p>
+        <p id="high" class="hero-unit">Grab yourself a MegaMillions ticket...NOW!</p>
+        <p id="medium" class="hero-unit">We can neither confirm nor deny your ESP.</p>
+        <p id="low" class="hero-unit">Don't quit your day job.</p>
+
+        <div class="buttons">
+          <button type="button" name="yes" class="btn btn-success btn-block">Holy Sh!t, That's it!</button>
+          <button type="button" name="no" class="btn btn-danger btn-block">Nope</button>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+  </html>
